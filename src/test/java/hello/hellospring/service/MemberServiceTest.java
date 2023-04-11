@@ -60,7 +60,7 @@ class MemberServiceTest {
 
          assertThat(e.getMessage()).isEqualTo("이미 존재하는 회원입니다.");
 
-        // Then
+        // Then 여기선 Then이 필요하지 않다
     }
 
     @Test
