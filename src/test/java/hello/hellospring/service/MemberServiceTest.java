@@ -29,6 +29,7 @@ class MemberServiceTest {
     public void afterEach() {
        memberRepository.clearStore();
     }
+    // afterEach는 테스트 케이스가 끝나면 데이터 누적이 아닌 데이터 정리를 해주는것 그래야 정상적인 테스트 환경이 만들어진다.
 
     @Test
     void 회원가입() {
