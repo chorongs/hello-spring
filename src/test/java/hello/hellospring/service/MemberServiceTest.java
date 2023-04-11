@@ -59,8 +59,8 @@ class MemberServiceTest {
                 () -> memberService.join(member2));//예외가 발생해야 한다.
 
          assertThat(e.getMessage()).isEqualTo("이미 존재하는 회원입니다.");
-
-        // Then 여기선 Then이 필요하지 않다
+        // assertThat 정리 필요함. / 툴 잘못고를때마다 getMessage에 오류가 남...
+        // Then 여기선 Then이 필요하지 않
     }
 
     @Test
