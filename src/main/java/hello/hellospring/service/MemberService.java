@@ -4,6 +4,7 @@ import hello.hellospring.domain.Member;
 import hello.hellospring.repositroy.MemberRepository;
 import hello.hellospring.repositroy.MemoryMemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
