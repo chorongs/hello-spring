@@ -18,3 +18,5 @@ public class SpringConfig {
         return new MemoryMemberRepository();
     }
 }
+
+// 빈을 직접 주입해주는 방식
