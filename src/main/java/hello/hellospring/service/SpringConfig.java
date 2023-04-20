@@ -20,3 +20,4 @@ public class SpringConfig {
 }
 
 // 빈을 직접 주입해주는 방식
+// 빈 내용 정리할것
