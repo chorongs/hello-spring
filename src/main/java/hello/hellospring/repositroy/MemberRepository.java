@@ -14,4 +14,3 @@ public interface MemberRepository {
     void clearStore();
 }
 
-// 저장 인터페이스!!!!!!!!
